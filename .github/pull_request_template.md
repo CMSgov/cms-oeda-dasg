@@ -42,15 +42,11 @@ Common items include:
 
 Submitters should complete the following questionnaire:
 
-* If the answer to any of these questions is **Yes**,
-  then here's a link to the associated Security Impact Assessment:
-  N/A.
+* If the answer to any of these questions is **Yes**, then here's a link to the associated Security Impact Assessment: N/A.
     * Does this PR add any new software dependencies? **Yes** or **No**.
     * Does this PR modify or invalidate any of our security controls? **Yes** or **No**.
     * Does this PR store or transmit data that was not stored or transmitted before? **Yes** or **No**.
-* If the answer to any of these questions is **Yes**,
-  then please add @StewGoin as a reviewer,
-  and note that this PR should not be merged unless/until he also approves it.
+* If the answer to any of these questions is **Yes**, then please add @StewGoin as a reviewer, and note that this PR should not be merged unless/until he also approves it.
     * Do you think this PR requires additional review of its security implications for other reasons? **Yes** or **No**.
 
 
@@ -74,25 +70,15 @@ Common items include:
 Before requesting final review, I've gone through and verified that this PR complies with the following requirements:
 
 * [ ] I've verified that this PR is as small as it can reasonably be, in order to:
-      1) ensure that any problems it causes have a small "blast radius",
-      2) to ensure that it'll be easier to rollback if that becomes necessary, and
-      3) to ease the burden on reviewers.
+    1. Ensure that any problems it causes have a small "blast radius".
+    2. Ensure that it'll be easier to rollback if that becomes necessary.
+    3. Ease the burden on reviewers.
 * [ ] I've verified that the individual commits in this PR all:
-      1) reasonably explain the "what" and "why" of the changes, and
-      2) leverage JIRA's
-         [smart commits](https://confluence.atlassian.com/jirasoftwarecloud/processing-issues-with-smart-commits-788960027.html)
-         to reference the JIRA ticket that they're associated with.
-* [ ] I've verified that this PR includes all required documentation changes,
-      including changelog / release notes entries.
-* [ ] I've verified that all new and modified code is appropriately commented,
-      such that the what and why of its design would be reasonably clear to engineers unfamiliar with the project.
-* [ ] I've verified that all tech debt and/or shortcomings introduced by this PR
-      is detailed in `TODO` and/or `FIXME` comments,
-      which include a JIRA ticket ID for any items that require urgent attention.
-* [ ] I've requested review from at least two other engineers on this project
-      (at least one of whom is a senior engineer or owns the relevant component(s) here).
-* [ ] I've requested review from any relevant engineers on other projects
-      (e.g. BFD, SLS, etc.).
-* [ ] I've verified that this PR and its changes comply with all other policies in the
-      [DASG Engineering Standards](../policies/engineering_standards.md)
-      and have specifically called out any/all deviations in this PR.
+    1. Reasonably explain the "what" and "why" of the changes.
+    2. Leverage JIRA's [smart commits](https://confluence.atlassian.com/jirasoftwarecloud/processing-issues-with-smart-commits-788960027.html) to reference the JIRA ticket that they're associated with.
+* [ ] I've verified that this PR includes all required documentation changes, including changelog / release notes entries.
+* [ ] I've verified that all new and modified code is appropriately commented, such that the what and why of its design would be reasonably clear to engineers unfamiliar with the project.
+* [ ] I've verified that all tech debt and/or shortcomings introduced by this PR is detailed in `TODO` and/or `FIXME` comments, which include a JIRA ticket ID for any items that require urgent attention.
+* [ ] I've requested review from at least two other engineers on this project (at least one of whom is a senior engineer or owns the relevant component(s) here).
+* [ ] I've requested review from any relevant engineers on other projects (e.g. BFD, SLS, etc.).
+* [ ] I've verified that this PR and its changes comply with all other policies in the [DASG Engineering Standards](../policies/engineering_standards.md) and have specifically called out any/all deviations in this PR.
