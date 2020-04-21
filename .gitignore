@@ -1,0 +1,8 @@
+# Ignore hidden/dot files.
+.*
+!.gitignore
+!.github
+
+# Ignore Vim metadata files.
+*.swp
+*.swo
