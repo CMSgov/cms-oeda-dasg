@@ -50,9 +50,9 @@ Submitters should complete the following questionnaire:
     * Do you think this PR requires additional review of its security implications for other reasons? **Yes** or **No**.
 
 
-### What Needs to Be Deployed Before this PR?
+### What Needs to Be Merged and Deployed Before this PR?
 
-This PR cannot be deployed until the following pre-requisite changes have been fully deployed:
+This PR cannot be either merged or deployed until the following pre-requisite changes have been fully deployed:
 
 * CMSgov/some_repo#42
 
