@@ -69,7 +69,7 @@ Common items include:
 
 Before requesting final review, I've gone through and verified that this PR complies with the following requirements:
 
-* [ ] I've verified that this PR is as small as it can reasonably be, in order to:
+* [ ] I've refactored and rebased this PR (for help, see: [this](https://dev.to/maxwell_dev/the-git-rebase-introduction-i-wish-id-had) and [this](https://raphaelfabeni.com/git-editing-commits-part-1/), if needed, so that it is as small as it can reasonably be, in order to:
     1. Ensure that any problems it causes have a small "blast radius".
     2. Ensure that it'll be easier to rollback if that becomes necessary.
     3. Ease the burden on reviewers.
