@@ -5,7 +5,7 @@ This PR template is here to help ensure you're setup for success:
 -->
 
 **JIRA Ticket:**
-<https://jira.cms.gov/browse/xxxx>
+[SOMEPROJECT-42](https://jira.cms.gov/browse/SOMEPROJECT-42)
 
 **User Story or Bug Summary:**
 <!-- Please copy-paste the brief user story or bug description that this PR is intended to address. -->
