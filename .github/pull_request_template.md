@@ -76,7 +76,7 @@ Before requesting final review, I've gone through and verified that this PR comp
 * [ ] I've verified that the individual commits in this PR all:
     1. Reasonably explain the "what" and "why" of the changes.
     2. Leverage JIRA's [smart commits](https://confluence.atlassian.com/jirasoftwarecloud/processing-issues-with-smart-commits-788960027.html) to reference the JIRA ticket that they're associated with.
-* [ ] I've verified that this PR includes all required documentation changes, including changelog / release notes entries.
+* [ ] I've verified that this PR includes all required documentation changes, including `README` updates and changelog / release notes entries.
 * [ ] I've verified that all new and modified code is appropriately commented, such that the what and why of its design would be reasonably clear to engineers unfamiliar with the project.
 * [ ] I've verified that all tech debt and/or shortcomings introduced by this PR is detailed in `TODO` and/or `FIXME` comments, which include a JIRA ticket ID for any items that require urgent attention.
 * [ ] I've requested review from at least two other engineers on this project (at least one of whom is a senior engineer or owns the relevant component(s) here).
