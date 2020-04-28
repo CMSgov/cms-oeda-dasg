@@ -73,7 +73,7 @@ Before requesting final review, I've gone through and verified that this PR comp
     1. Ensure that any problems it causes have a small "blast radius".
     2. Ensure that it'll be easier to rollback if that becomes necessary.
     3. Ease the burden on reviewers.
-* [ ] I've verified that the individual commits in this PR all:
+* [ ] I've verified that the commits in this PR:
     1. Reasonably explain the "what" and "why" of the changes.
     2. Leverage JIRA's [smart commits](https://confluence.atlassian.com/jirasoftwarecloud/processing-issues-with-smart-commits-788960027.html) to reference the JIRA ticket that they're associated with. For example, aim for commit messages like this (note also [the 50/72 formatting](https://stackoverflow.com/q/2290016) used here):
         
