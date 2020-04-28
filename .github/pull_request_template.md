@@ -60,7 +60,7 @@ This PR cannot be either merged or deployed until the following pre-requisite ch
 Add some items to the list above, or remove the entire section if it doesn't apply.
 
 Common items include:
-* Database migrations (which should always go out in PRs by themselves, to reduce risk).
+* Database migrations (which should always be deployed by themselves, to reduce risk).
 * New features in external dependencies (e.g. BFD).
 -->
 
