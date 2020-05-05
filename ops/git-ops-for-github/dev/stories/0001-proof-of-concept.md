@@ -1,8 +1,9 @@
-# User Story: Dogfood First
+# User Story: Proof of Concept
 
 As a DASG techie,
   I need a workflow and tooling for declaratively managing the permissions of the <https://github.com/CMSgov/cms-oeda-dasg> repository,
   so that we can turn around requests for GitHub access more quickly and safely.
+
 
 ## Details
 
@@ -26,6 +27,7 @@ Best as I've been able to manage things so far,
 
 That's a bit complex to manage (particularly by hand),
   but seems to work.
+
 
 ## Acceptance Criteria
 
