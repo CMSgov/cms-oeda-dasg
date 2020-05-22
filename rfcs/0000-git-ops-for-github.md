@@ -3,7 +3,7 @@
 
 * RFC Proposal ID: `0000-git-ops-for-github` (fill me in with a unique ident)
 * Start Date: 2020-05-18
-* RFC PR: [rust-lang/rfcs#0000](https://github.com/CMSgov/cms-oeda-dasg/pull/3)
+* RFC PR: [CMSgov/cms-oeda-dasg#3](https://github.com/CMSgov/cms-oeda-dasg/pull/3)
 * JIRA Ticket(s):
     * N/A: see the epic & stories in the PR
 
@@ -160,7 +160,7 @@ At the highest level possible, here's the design proposal:
 
 For a more detailed design proposal,
   please see the proof of concept accompanying this RFC
-  in the [Proof of concept for GitHub Git ops](https://github.com/CMSgov/cms-oeda-dasg/pull/3) pull request.
+  in the [CMSgov/cms-oeda-dasg#3](https://github.com/CMSgov/cms-oeda-dasg/pull/3) pull request.
 
 
 ### Proposed Solution: Unresolved Questions
