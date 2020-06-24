@@ -165,6 +165,21 @@ At the highest level possible, here's the design proposal:
     with an eye towards how it might eventually also be used by and handed off
     to the wider [CMSgov organization in GitHub](https://github.com/CMSgov).
 
+Included with this RFC's pull request is a proof of concept (PoC).
+This PoC was just intended to validate that Terraform was a reasonable technology choice for managing GitHub,
+  which it did: Terraform appears to be a reasonable choice.
+The PoC is obivously incomplete: its deficiencies are detailed in the PR description.
+
+The implementation will likely proceed as follows:
+
+1. Address the known PoC deficiencies, particularly implementing remote state management.
+2. Flesh out the configs such that they match BFD's current state.
+3. Manually run Terraform to verify that the configs match BFD's state, as expected.
+   Resolve any differences.
+4. Deploy the solution for BFD's GitHub repos (with Product Owner approval, of course).
+5. Collect and resolve any feedback that is received, after running it against BFD for a while.
+6. Demo to wider DASG organization, get buy-in, develop a rollout plan, and then implement it.
+
 For a more detailed design proposal,
   please see the proof of concept accompanying this RFC
   in the [CMSgov/cms-oeda-dasg#3](https://github.com/CMSgov/cms-oeda-dasg/pull/3) pull request.
