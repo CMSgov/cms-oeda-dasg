@@ -67,13 +67,13 @@ Common items include:
 
 ### Submitter Checklist
 
-Before requesting final review, I've gone through and verified that this PR complies with the following requirements:
+I have gone through and verified that...:
 
-* [ ] I've refactored and rebased this PR (for help, see: [this](https://dev.to/maxwell_dev/the-git-rebase-introduction-i-wish-id-had) and [this](https://raphaelfabeni.com/git-editing-commits-part-1/), if needed, so that it is as small as it can reasonably be, in order to:
+* [ ] This PR has been refactored and rebased (for help, see: [this](https://dev.to/maxwell_dev/the-git-rebase-introduction-i-wish-id-had) and [this](https://raphaelfabeni.com/git-editing-commits-part-1/), if needed, so that it is as small as it can reasonably be, in order to:
     1. Ensure that any problems it causes have a small "blast radius".
     2. Ensure that it'll be easier to rollback if that becomes necessary.
     3. Ease the burden on reviewers.
-* [ ] I've verified that the commits in this PR:
+* [ ] The commits in this PR:
     1. Reasonably explain the "what" and "why" of the changes.
     2. Leverage JIRA's [smart commits](https://confluence.atlassian.com/jirasoftwarecloud/processing-issues-with-smart-commits-788960027.html) to reference the JIRA ticket that they're associated with. For example, aim for commit messages like this (note also [the 50/72 formatting](https://stackoverflow.com/q/2290016) used here):
         
@@ -88,9 +88,11 @@ Before requesting final review, I've gone through and verified that this PR comp
         SOMEPROJECT-42
         ```
         
-* [ ] I've verified that this PR includes any required documentation changes, including `README` updates and changelog / release notes entries.
-* [ ] I've verified that all new and modified code is appropriately commented, such that the what and why of its design would be reasonably clear to engineers, preferably ones unfamiliar with the project.
-* [ ] I've verified that all tech debt and/or shortcomings introduced by this PR are detailed in `TODO` and/or `FIXME` comments, which include a JIRA ticket ID for any items that require urgent attention.
-* [ ] I've requested review from at least two other engineers on this project, at least one of whom is a senior engineer or owns the relevant component(s) here.
-* [ ] I've requested review from any relevant engineers on other projects (e.g. BFD, SLS, etc.).
-* [ ] I've verified that this PR and its changes comply with all other policies in the [DASG Engineering Standards](../policies/engineering_standards.md) and have specifically called out any/all deviations in this PR.
+* [ ] This PR includes any required documentation changes, including `README` updates and changelog / release notes entries.
+* [ ] All new and modified code is appropriately commented, such that the what and why of its design would be reasonably clear to engineers, preferably ones unfamiliar with the project.
+* [ ] All tech debt and/or shortcomings introduced by this PR are detailed in `TODO` and/or `FIXME` comments, which include a JIRA ticket ID for any items that require urgent attention.
+* [ ] Reviews are requested from both:
+    * At least two other engineers on this project, at least one of whom is a senior engineer or owns the relevant component(s) here.
+    * Any relevant engineers on other projects (e.g. BFD, SLS, etc.).
+* [ ] Any deviations from the other policies in the [DASG Engineering Standards](../policies/engineering_standards.md) are specifically called out in this PR, above.
+    * Please review the standards every few months to ensure you're familiar with them.
