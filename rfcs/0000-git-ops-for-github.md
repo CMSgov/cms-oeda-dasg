@@ -110,6 +110,13 @@ For everyone, it provides clarity:
   by "writing down" the infrastructure definitions where everyone can see them,
   everyone has a better chance to understand the infrastructure.
 
+The solution is intended to cover the following use cases:
+
+1. Onboarding/offboarding a GitHub user (with CMSgov membership) from/to one of our existing programs.
+1. Auditing the history of changes made to our programs' GitHub settings and permissions.
+1. Changing the settings for an existing GitHub repository, such as the branch protection.
+1. Onboarding a new program/contract to GitHub, including the repository and teams.
+
 For example, one might imagine a declaration for a Git repository that looks like this (in pseudo-code):
 
 ```
