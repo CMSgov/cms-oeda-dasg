@@ -21,12 +21,8 @@ This is likely a summary, or the complete contents, of your commit messages.
 
 ### What Should Reviewers Watch For?
 
-If you're reviewing this PR, please check these things, in particular:
-
-* TODO
-
 <!--
-Add some items to the list above, or remove the entire section if it doesn't apply for some reason.
+Add some items to the following list, or remove the entire section if it doesn't apply for some reason.
 
 Common items include:
 * Is this likely to address the goals expressed in the user story?
@@ -36,6 +32,10 @@ Common items include:
 * Does this make any backwards-incompatible changes that might break end user clients?
 * Can you find any bugs if you run the code locally and test it manually?
 -->
+
+If you're reviewing this PR, please check these things, in particular:
+
+* TODO
 
 
 ### What Security Implications Does This PR Have?
@@ -52,17 +52,17 @@ Submitters should complete the following questionnaire:
 
 ### What Needs to Be Merged and Deployed Before this PR?
 
-This PR cannot be either merged or deployed until the following pre-requisite changes have been fully deployed:
-
-* CMSgov/some_repo#42
-
 <!--
-Add some items to the list above, or remove the entire section if it doesn't apply.
+Add some items to the following list, or remove the entire section if it doesn't apply.
 
 Common items include:
 * Database migrations (which should always be deployed by themselves, to reduce risk).
 * New features in external dependencies (e.g. BFD).
 -->
+
+This PR cannot be either merged or deployed until the following pre-requisite changes have been fully deployed:
+
+* CMSgov/some_repo#42
 
 
 ### Submitter Checklist
