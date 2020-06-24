@@ -94,5 +94,5 @@ I have gone through and verified that...:
 * [ ] Reviews are requested from both:
     * At least two other engineers on this project, at least one of whom is a senior engineer or owns the relevant component(s) here.
     * Any relevant engineers on other projects (e.g. BFD, SLS, etc.).
-* [ ] Any deviations from the other policies in the [DASG Engineering Standards](../policies/engineering_standards.md) are specifically called out in this PR, above.
+* [ ] Any deviations from the other policies in the [DASG Engineering Standards](https://github.com/CMSgov/cms-oeda-dasg/blob/master/policies/engineering_standards.md) are specifically called out in this PR, above.
     * Please review the standards every few months to ensure you're familiar with them.
