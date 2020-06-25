@@ -67,12 +67,21 @@ This PR cannot be either merged or deployed until the following pre-requisite ch
 
 ### Submitter Checklist
 
+<!--
+Helpful hint: if needed, Git allows you to edit your PR's commits and history, prior to merge.
+See these resources for more information:
+
+* <https://dev.to/maxwell_dev/the-git-rebase-introduction-i-wish-id-had>
+* <https://raphaelfabeni.com/git-editing-commits-part-1/>
+-->
+
 I have gone through and verified that...:
 
-* [ ] This PR has been refactored and rebased (for help, see: [this](https://dev.to/maxwell_dev/the-git-rebase-introduction-i-wish-id-had) and [this](https://raphaelfabeni.com/git-editing-commits-part-1/), if needed, so that it is as small as it can reasonably be, in order to:
-    1. Ensure that any problems it causes have a small "blast radius".
-    2. Ensure that it'll be easier to rollback if that becomes necessary.
-    3. Ease the burden on reviewers.
+* [ ] This PR is reasonably limited in scope, to help ensure that:
+    1. It doesn't unnecessarily tie a bunch of disparate features, fixes, refactorings, etc. together.
+    2. There isn't too much of a burden on reviewers.
+    3. Any problems it causes have a small "blast radius".
+    4. It'll be easier to rollback if that becomes necessary.
 * [ ] The commits in this PR:
     1. Reasonably explain the "what" and "why" of the changes.
     2. Leverage JIRA's [smart commits](https://confluence.atlassian.com/jirasoftwarecloud/processing-issues-with-smart-commits-788960027.html) to reference the JIRA ticket that they're associated with. For example, aim for commit messages like this (note also [the 50/72 formatting](https://stackoverflow.com/q/2290016) used here):
