@@ -14,8 +14,16 @@ This PR template is here to help ensure you're setup for success:
 ### What Does This PR Do?
 
 <!--
-Add detailed discussion of changes here
-This is likely a summary, or the complete contents, of your commit messages.
+Add detailed description & discussion of changes here.
+The contents of this section should be used as your commit message (unless you merge the PR via a merge commit, of course).
+
+Please follow standard Git commit message guidelines:
+* First line should be a capitalized, short (50 chars or less) summary.
+* The rest of the message should be in standard Markdown format, wrapped to 72 characters.
+* Describe your changes in imperative mood, e.g. "make xyzzy do frotz" instead of "[This patch] makes xyzzy do frotz" or "[I] changed xyzzy to do frotz", as if you are giving orders to the codebase to change its behavior.
+* List all relevant Jira issue keys, one per line at the end of the message, per: <https://confluence.atlassian.com/jirasoftwarecloud/processing-issues-with-smart-commits-788960027.html>.
+
+Reference: <https://git-scm.com/book/en/v2/Distributed-Git-Contributing-to-a-Project>.
 -->
 
 
@@ -82,21 +90,7 @@ I have gone through and verified that...:
     2. There isn't too much of a burden on reviewers.
     3. Any problems it causes have a small "blast radius".
     4. It'll be easier to rollback if that becomes necessary.
-* [ ] The commits in this PR:
-    1. Reasonably explain the "what" and "why" of the changes.
-    2. Leverage JIRA's [smart commits](https://confluence.atlassian.com/jirasoftwarecloud/processing-issues-with-smart-commits-788960027.html) to reference the JIRA ticket that they're associated with. For example, aim for commit messages like this (note also [the 50/72 formatting](https://stackoverflow.com/q/2290016) used here):
-        
-        ```
-        Added the whizbang to the doodad.
-
-        The new whizbang should really simplify things for our whoosit users.
-        It was a bit tricky to get it into the doodad, but we decided that the
-        flipwhee pattern was the best approach for now. Might want to revisit
-        that in the future if it ends up being too hard to maintain.
-
-        SOMEPROJECT-42
-        ```
-        
+* [ ] I have named this PR and its branch such that they'll be automatically be linked to the (most) relevant Jira issue, per: <https://confluence.atlassian.com/adminjiracloud/integrating-with-development-tools-776636216.html>.
 * [ ] This PR includes any required documentation changes, including `README` updates and changelog / release notes entries.
 * [ ] All new and modified code is appropriately commented, such that the what and why of its design would be reasonably clear to engineers, preferably ones unfamiliar with the project.
 * [ ] All tech debt and/or shortcomings introduced by this PR are detailed in `TODO` and/or `FIXME` comments, which include a JIRA ticket ID for any items that require urgent attention.
