@@ -11,6 +11,12 @@ Items marked "SHOULD" indicate that there may exist valid reasons in particular 
 ## Table of Contents
 [Table of Contents]: #table-of-contents
 
+<!--
+This Table of Contents has to be updated manually, since GitHub does not currently offer any automation
+around TOCs. Note that the anchor naming format used here seems to be required: take the link text,
+lower-case it, replace spaces with dashes, and remove all other punctuation.
+-->
+
 * [Table of Contents](#table-of-contents)
 * [Goals of These Standards](#goals-of-these-standards)
     * [Goal: Reduce Duplicate Work](#goal-reduce-duplicate-work)
